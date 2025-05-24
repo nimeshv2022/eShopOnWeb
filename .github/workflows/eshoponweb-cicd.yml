@@ -94,7 +94,7 @@ jobs:
       uses: Azure/webapps-deploy@v3
       with:
         type: ZIP
-        app-name: ${{ env.WEBAPP-NAME  }}
+        app-name: eshoponweb-webapp-173318
         package: .net-app/app.zip
 
     # Publish website to Azure App Service using CLI (WebApp)
